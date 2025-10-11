@@ -1,2 +1,2 @@
 # data-processing-scripts
-Production-ready Docker configurations and deployment scripts
+Collection of Python scripts for data processing, transformation, and analysis
