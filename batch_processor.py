@@ -151,3 +151,11 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+# Refactor build process in file handler - 2025-10-12 03:10:13
+# Improved readability
+data = [
+    item
+    for item in collection
+    if item.is_valid()
+]
