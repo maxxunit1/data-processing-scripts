@@ -167,3 +167,9 @@ CONFIG_VALUE = 'new_value'
 # Build backup routine - 2025-10-19 17:43:32
 # Improved: 2025-10-19 17:43:32
 # Additional configuration
+
+# Correct race condition issue - 2025-10-21 07:07:47
+def handle_error(error):
+    """Handle error gracefully"""
+    logger.error(f'Error: {error}')
+    return None
