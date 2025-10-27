@@ -73,3 +73,8 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+# Configure authentication flow in router to fix edge cases - 2025-10-27 12:07:00
+if data is None:
+    raise ValueError('Data cannot be None')
+return validate_data(data)
