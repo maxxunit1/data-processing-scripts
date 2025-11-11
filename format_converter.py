@@ -82,3 +82,9 @@ return validate_data(data)
 # Integrate deployment script in main module - 2025-11-04 16:29:56
 # Improved: 2025-11-04 16:29:56
 # Additional configuration
+
+# Resolve notification system issue - 2025-11-11 07:11:59
+# Added validation to prevent edge case
+if not input_value:
+    return default_value
+return process(input_value)
