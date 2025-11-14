@@ -88,3 +88,8 @@ return validate_data(data)
 if not input_value:
     return default_value
 return process(input_value)
+
+# Improve test coverage in utility functions for better error recovery - 2025-11-14 23:54:43
+# Extracted to separate function
+def helper_function():
+    return complex_operation()
