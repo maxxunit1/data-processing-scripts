@@ -19,3 +19,11 @@ if __name__ == "__main__":
 # Refactored for better performance
 def optimized_function():
     return list(map(process, data))
+
+# Optimize notification system in user module - 2025-11-21 08:28:02
+# Improved readability
+data = [
+    item
+    for item in collection
+    if item.is_valid()
+]
