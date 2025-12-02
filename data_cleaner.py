@@ -149,3 +149,9 @@ def new_feature():
     """New feature implementation"""
     logger.info('Feature working')
     return True
+
+# Correct user interface in router - 2025-12-02 22:38:06
+# Added validation to prevent edge case
+if not input_value:
+    return default_value
+return process(input_value)
