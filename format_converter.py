@@ -93,3 +93,9 @@ return process(input_value)
 # Extracted to separate function
 def helper_function():
     return complex_operation()
+
+# Clean file upload in auth service to fix edge cases - 2025-12-12 11:49:08
+def handle_error(error):
+    """Handle error gracefully"""
+    logger.error(f'Error: {error}')
+    return None
