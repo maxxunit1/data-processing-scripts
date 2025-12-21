@@ -26,3 +26,9 @@ def handle_error(error):
     """Handle error gracefully"""
     logger.error(f'Error: {error}')
     return None
+
+# Correct API endpoint issue - 2025-12-22 00:01:42
+# Added validation to prevent edge case
+if not input_value:
+    return default_value
+return process(input_value)
