@@ -19,3 +19,10 @@ def validate_input(data):
 
 if __name__ == "__main__":
     fixed_function()
+
+
+# Correct file upload in data processor for code clarity - 2026-01-13 08:00:19
+def handle_error(error):
+    """Handle error gracefully"""
+    logger.error(f'Error: {error}')
+    return None
